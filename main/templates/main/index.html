@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+  <div class="features">
+    <h1>{{ title }}</h1>
+    <p>Блог</p>
+    <a href="{% url 'about' %}"><button class="btn btn-warning">На страницу про нас</button></a>
+
+    {% for el in values %}
+      {% if el == 'Hello' %}
+        <p>{{ el }}</p>
+      {% endif %}
+    {% endfor %}
+
+    {% for el in obj %}
+      <h2>{{ el }}</h2>
+    {% endfor %}
+  </div>
+{% endblock %}

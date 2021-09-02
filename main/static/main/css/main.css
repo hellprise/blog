@@ -1,0 +1,78 @@
+body {
+    background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);
+}
+
+aside {
+    float: left;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 40% );
+    width: 25%;
+    padding: 1%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 80px;
+    float: left
+}
+
+aside .logo {
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+    position: relative;
+    top: +46px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+aside ul {list-style: none}
+
+aside ul li {
+    text-decoration: none;
+    color: #00FF7F;
+    display: block;
+    margin-top: 15px;
+    transition: transform .5s ease;
+}
+
+aside ul a {
+    text-decoration: none;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #193737;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 45px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 50px;}
+main .features p {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.alert {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 10px 34%;
+    text-align: left;
+}
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 20px;
+}
